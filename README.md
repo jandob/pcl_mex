@@ -43,7 +43,7 @@ mex -v pcl_transform.cpp pcl_mex_conversions.cpp ...
 - open the solution file pcl_mex_visual_studio/pcl_mex_visual_studio.sln 
 - the path to Matlab/PCL can be adjusted in the `Property Manager` -> `matlab`/`pcl` -> `User Macros` 
 - alternatively you can edit the files `pcl.props` and `matlab.props` directly
-- a post build step will copy the built mex file to pcl_mex_visual_studio/../pcl_mex_transform.mexw64
+- a post build step will copy the built mex file to `pcl_mex_visual_studio/../pcl_mex_transform.mexw64`
 
 # Usage 
 See `pcl.m` for examples.
