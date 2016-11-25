@@ -6,7 +6,6 @@
 #include "pcl_mex_conversions.h"
 
 
-
 void mxArrayToPointCloud(const mxArray *mxIn,
         pcl::PointCloud<pcl::PointXYZ>::Ptr cloud) {
     mwSize nrows = mxGetM(mxIn);
